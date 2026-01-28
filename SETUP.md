@@ -217,10 +217,8 @@ You can upload employees in bulk using an XLSX file with the following columns:
 | **A** | Név | Full name |
 | **B** | Email | Email address |
 | **C** | Jelszó emlékeztető | Hint sent in email (e.g. "Tax ID last 4 digits") |
-| **D** | PDF fájlnév | Expected PDF filename (must match exactly) |
+| **D** | PDF fájlnév | Expected PDF filename (must match exactly with .pdf) |
 | **E** | Jelszó | Actual password for PDF encryption |
-
-Download [example template](file:///Users/tomko/programing/berlap/templates/employees_template.xlsx) (Coming soon - use the format above).
 
 ---
 

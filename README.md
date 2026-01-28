@@ -1,6 +1,6 @@
-# Bérlap Distribution System
+# Payroll Distribution System
 
-Secure payroll (bérlap) distribution web application built with Next.js 16+, MongoDB, and Microsoft authentication.
+Secure payroll distribution web application built with Next.js 16+, MongoDB, and Microsoft authentication.
 
 ## Features
 
@@ -90,9 +90,12 @@ src/
 
 Excel file with columns (A-E):
 
-| Name | Email | Code | PDF Name | Password |
+| Name | Email | Password Hint | PDF Name | Password |
 |------|-------|------|----------|----------|
-| John Doe | john@company.hu | EMP001 | berlap_jan2026_john.pdf | secret123 |
+| John Doe | john@company.hu | Last 4 digits of tax ID | berlap_jan2026_john.pdf | secret123 |
+
+Password hint is sent to the employee's email address.
+PDF name is used to match the PDF file to the employee on mass upload.
 
 ## Usage
 
@@ -118,4 +121,4 @@ Excel file with columns (A-E):
 
 ## License
 
-Private - Company Internal Use
+MIT
